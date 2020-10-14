@@ -69,8 +69,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
         }
         
         public override bool ConsumeAmmo(Player player)
-		{
-			return Main.rand.NextFloat() >= .33f;
-		}
+	{
+	    return Main.rand.NextFloat() >= .33f;
+	}
     }
 }
